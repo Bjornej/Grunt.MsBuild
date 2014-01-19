@@ -17,6 +17,6 @@ As you may have noted there are two packages version: Global and local.
 
 These are coomon problems found :
 
-- If npm install says your pacakge.json cannot be parsed it is probably due to VS that saved your file in UTF8 format whit BOM. Save it as ASCII and the problem will disappear
+- If npm install says your package.json cannot be parsed it is probably due to VS that saved your file in UTF8 format whit BOM. Save it as ASCII and the problem will disappear
 
-- Usage of these package in a build osted on Visual Studio online is currently not possible due to the fact that the build agent has an old (0.6) version of node.js installed preventing the execution of the npm install command. This could be solved by checking in all the packages needed but I don't think it's a good solution.  
+- Usage of these package in a build hosted on Visual Studio online is currently not possible due to the fact that the build agent has an old (0.6) version of node.js installed preventing the execution of the npm install command. This could be solved by checking in all the packages needed but I don't think it's a good solution.  
