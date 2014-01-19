@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Grunt.MsBuild.Local</id>
+        <version>0.1</version>
+        <title>Grunt.MsBuild.Local</title>
+        <authors>Paolo Nicodemo</authors>
+        <owners>Paolo Nicodemo</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A nuget package executs at the end of the build process restoring node packages invoking grunt.</description>
+		<tags>Grunt msbuild tfs</tags>
+		<language>en-US</language>
+		<projectUrl>https://github.com/Bjornej/Grunt.MsBuild</projectUrl>
+    </metadata>
+	<files>
+		<file src="targets/local.targets" target="build/" />
+	</files>
+</package>
